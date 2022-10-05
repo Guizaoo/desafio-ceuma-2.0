@@ -9,35 +9,27 @@ background:  #232528;
 
 
 
-.container{
-position: absolute;
-width: 656px;
-height: 97px;
-left: 629px;
-top: 65px;
-
-}
 
 
-.search-box{
+
+#searchbox{
 height: 1rem;
 width: 24rem;
 padding: 20px;
 background: #202128;
 border: 1.4px solid #363743;
 border-radius: 10px;
-
-position: absolute;
-left: 43.68%;
-right: 22.43%;
-top: 13.34%;
-bottom: 78.6%;
 color: #FFFFFF;;
 
 font-size: 15px;
 }
+.search{
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
 
-.button{
+
+#button{
 width: 136px;
 height: 58px;
 
@@ -45,8 +37,6 @@ background: #DC602E;
 border-radius: 10px;
 border: none;
 
-margin-top: 8rem;
-margin-left: 81rem;
 font-size: 16px;
 
 }
@@ -57,21 +47,17 @@ font-size: 16px;
 .img-cat{
     display: flex;
     margin-top: 200px;
-    margin-left: 25rem;
+    margin-left: 12rem;
     
 }
 
 p{
 color: white;
-margin-left: 53rem ;
-position: absolute;
-font-family: 'Poppins';
-font-style: normal;
-margin-top: 6rem;
-font-weight: 600;
-font-size: 15px;
-line-height: 24px;
+padding-bottom: 10px;
 }
+
+
+
 
 
 

@@ -7,20 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatChange</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
 </head>
 
 <body>
+
+
+
+
+
+
     <header class="constainer">
 
         <div class="search">
             <p>Pesquisar</p>
 
-            <input type="text" class="search-box" placeholder="Pesquise pelo nome do gato">
+            <input type="text" id="searchbox" placeholder="Pesquise pelo nome do gato">
             
-            <input type="button" class="button" value="Pesquisar">
+            <button onclick="consultaImagens()" id="button">pesquisar</button>
 
+            
+    
+                <p>
+                    nome do gato:
+                </p>
+            
+    
+            
         </div>
 
+       
 
         <div class="img-cat">
             <img src="./file/Cat.svg" alt="">
@@ -28,6 +44,10 @@
         </div>
 
     </header>
+
+
+
+
 
 </body>
 
